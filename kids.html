@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Kids</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/019/956/200/non_2x/nike-transparent-nike-free-free-png.png">
+</head>
+<body>
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+        body{
+            background: #3D3B40;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+body::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #31ca5f;
+    position: absolute;
+    clip-path: circle(40% at right 65%);
+    z-index: -1;
+}
+
+.container{
+    width: 80%;
+    height: 80%;
+    background: rgba(255,255,255,0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 0 50px;
+}
+
+#NKids{
+    color: #F8EDFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
+
+.con{
+    color: #F8EDFF;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/*phone*/
+
+@media (max-width: 768px) {
+
+    .container{
+        width: 80%;
+        height: 80%;
+        background: 0;
+        border-radius: 0;
+        overflow: unset;
+    }
+}
+    </style>
+    <nav>
+        <a href="index.html" class="Logo">Nike</a>
+        <ul>
+            <li><a href="Nike Air Force 1.html">Nike Air Force 1</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="kids.html">Kids</a></li>
+        </ul>
+    </nav>
+<div class="container">
+    <div class="con">
+    <h1 id="NKids">Nike Kids</h1>
+    <br>
+    <p>The entire Nike collection for children is brought together in this section. Find pairs of sneakers and clothing from the Swoosh brand in a style that remains as innovative year after year. Your little one also has the right to his dose of style and this is where it happens. Sneakers for babies, children, and juniors will give it all the class of the American brand. From his first steps to his entry into high school, the American brand accompanies him in every step of his life. Air Max 270, Air Force 1, or Nike Blazer, find all the iconic models in reduced sizes. On the textile side, children have nothing to envy of adults with stylish clothes that will make their outfits stand out. at the level above.</p>
+</div>
+</div>
+</body>
+</html>
